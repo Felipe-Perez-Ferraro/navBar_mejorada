@@ -3,9 +3,9 @@ const close = document.getElementById('close');
 const navBar = document.getElementById('nav-bar');
 
 open.addEventListener('click', ()=> {
-    navBar.style.width = "50%";
+    navBar.style.display = "block";
 });
 
 close.addEventListener('click', ()=> {
-    navBar.style.width = "0";
+    navBar.style.display = "none";
 });
